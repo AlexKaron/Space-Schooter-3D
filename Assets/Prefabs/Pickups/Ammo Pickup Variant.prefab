@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2258291809912436785
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2180403982769295086, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_Name
+      value: Ammo Pickup Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2426295685750920296, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2cdadd9aef02f094da7e47ffca52df73, type: 2}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821719406386040924, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+--- !u!1 &5140735627420513820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6341243919461322285, guid: fa559caba84c6df42a9f7c0e2b8f6c16, type: 3}
+  m_PrefabInstance: {fileID: 2258291809912436785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1198514248046135097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5140735627420513820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a55964324ad1946980d84c3d66dc4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoAmount: 5
+  ammoType: 1
